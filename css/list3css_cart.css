@@ -1,0 +1,204 @@
+#banner {
+  position: relative;
+  z-index: 0;
+}
+
+.section {
+  z-index: -0;
+}
+.checkOut {
+  text-decoration: none;
+  color: #fff;
+}
+
+.checkOut:hover {
+  color: #fff;
+}
+.cartContainer {
+  width: 900px;
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  transition: transform 0.5s;
+  z-index: 1;
+}
+
+#imgCart {
+  width: 35px;
+  top: 2%;
+  position: fixed;
+  right: 22%;
+  z-index: 1;
+}
+
+.icon-cart {
+  position: relative;
+  position: fixed;
+  top: 4%;
+  right: 23%;
+  z-index: 1;
+}
+
+.icon-cart span {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.cartTab {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+  width: 400px;
+  background-color: #585353;
+  color: #eee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0 -400px 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: 0.5s;
+}
+
+.cartTab .listCart .jjim {
+  display: grid;
+  grid-template-columns: 20px 100px 150px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #646060;
+}
+
+.jjimCount {
+  color: #e88c0e;
+}
+
+@media only screen and (max-width: 1600px) {
+  .cartTab {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    width: 200px;
+    background-color: #585353;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0 -200px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: 0.5s;
+  }
+
+  .cartTab .listCart .jjim {
+    display: grid;
+    grid-template-columns: 0px 10px 100px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-top: 20px;
+  }
+
+  .img_in_cart {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  #imgCart {
+    width: 35px;
+    top: 10px;
+    position: fixed;
+    right: 0;
+  }
+  .icon-cart {
+    position: relative;
+    position: fixed;
+    top: 17px;
+    right: 15px;
+  }
+
+  body.showCart .cartContainer {
+    display: none;
+  }
+}
+
+.cartTab h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.img_in_cart {
+  height: 87px;
+}
+
+.cartTab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button {
+  background-color: #5995de;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTab .btn .close {
+  background-color: #e88c0e;
+}
+
+.cartTab .listCart .jjim img {
+  width: 100%;
+}
+
+.cartTab .listCart .jjim {
+  display: grid;
+  grid-template-columns: 20px 130px 180px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.listCart .jjim {
+  background-color: #585353;
+}
+
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+
+.listCart {
+  overflow: auto;
+}
+
+body.showCart .cartTab {
+  inset: 0 0 0 auto;
+}
+
+.aLink {
+  color: white;
+}
+
+.aLink:hover {
+  color: #e2b460;
+}
+.cartTitle {
+  word-break: keep-all;
+}

@@ -1,0 +1,215 @@
+.title {
+  font-size: 16px;
+  height: 100px;
+  line-height: 200%;
+}
+
+.title a {
+  color: black;
+}
+
+.p_outer_frame {
+  width: 300px;
+  height: 300px;
+}
+
+.p_frame {
+  border: 1px solid rgba(0, 0, 0, 0.548);
+  width: 290px;
+  height: 290px;
+  padding: 8px;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.p_frame:hover {
+  border: 1.5px solid #e28160;
+  margin: 3px;
+  width: 300px;
+  height: 300px;
+  padding-left: 8px;
+  background-color: #ffd6769a;
+}
+
+.imgframe {
+  height: 185px;
+  width: 280px;
+  border-radius: 3px;
+}
+
+.iHeart {
+  position: absolute;
+  margin-top: 47%;
+  margin-left: 75%;
+  background-color: #e7e2e2cb;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.iHeart:hover i {
+  color: #e4410b;
+}
+
+i {
+  color: #e4410b;
+}
+.title {
+  color: black;
+  text-align: center;
+  word-break: keep-all;
+}
+
+#total_data_result {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+#data_result {
+  color: #5995de;
+}
+.taek {
+  height: 185px;
+  padding-left: 15%;
+}
+
+.taek2 {
+  display: none;
+  height: 185px;
+  padding-left: 15%;
+  padding-top: 0;
+}
+
+.p_frame:hover .taek {
+  display: none;
+}
+
+.p_frame:hover .taek2 {
+  display: block;
+}
+
+.pageBar {
+  position: relative;
+  margin-top: 7%;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 10%;
+}
+
+.pagination {
+  position: absolute;
+  justify-content: center;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100vw;
+}
+
+.pagination li {
+  display: inline;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.pagination {
+  float: left;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 12px;
+  color: #96a0ad;
+  line-height: 1.5;
+}
+
+.first_page {
+  margin-left: 10%;
+}
+
+.last {
+  margin-left: 15px;
+}
+
+.first_page:hover,
+.last_page:hover,
+.left:hover,
+.right:hover {
+  color: #e28160;
+}
+
+.pagination a:active {
+  outline: none;
+}
+
+.modal .num {
+  margin-left: 15px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.modal .num:hover {
+  background-color: #d4d9dc;
+  color: black;
+}
+
+.modal .num.active,
+.modal .num:active {
+  border: 2px solid #5995de;
+  padding: 2px 10px 3px 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #5995de;
+  color: #fff;
+}
+#searchTable {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 890px;
+  margin-left: 10px;
+  margin-bottom: 5%;
+}
+
+#searchTable {
+  background-color: #f1f1f1;
+  border: 1px solid #7a7474;
+}
+#searchTable td {
+  border: 1px solid #7a7474;
+  text-align: center;
+  width: 30%;
+}
+
+.select_option {
+  width: 100%;
+  text-align: center;
+}
+.select_btn {
+  width: 100%;
+  background-color: #b0c7e6dc;
+}
+
+#search_td {
+  background-color: #ffd676;
+  width: 34%;
+  text-align: center;
+}
+#inputBox {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-left: 0;
+  position: relative;
+}
+#searchBtn {
+  width: 34%;
+  height: 30px;
+  background-color: #ffd676da;
+  text-align: center;
+}

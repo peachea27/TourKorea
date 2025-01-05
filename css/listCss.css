@@ -1,0 +1,57 @@
+* {
+  font-family: "Roboto:300,regular,500";
+}
+
+#listling {
+  display: none;
+  list-style: none;
+}
+
+#nav2 {
+  visibility: hidden;
+  padding-top: 5%;
+}
+
+#nav2.active {
+  visibility: visible;
+}
+
+.nav {
+  width: 100%;
+  text-align: right;
+}
+
+.homebtn {
+  padding-bottom: 5%;
+  margin-top: 0;
+}
+
+#seoul {
+  background-repeat: no-repeat;
+  background-image: url("/images/seoulcolored.png");
+}
+
+#seoul:hover {
+  background: none;
+}
+
+#details {
+  padding-left: 1px;
+}
+
+#footer {
+  margin-top: 5%;
+}
+/* -------------------------------------- */
+
+@media only screen and (max-width: 990px) {
+  #nav2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #listling {
+    display: block;
+  }
+}
